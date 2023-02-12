@@ -1,0 +1,122 @@
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+* {
+  margin: 0px;
+}
+h2 {
+  color: #ffffff;
+  text-align: center;
+}
+ul {
+  margin: 0px;
+  list-style: none;
+  text-align: right;
+  background-color: #23395d;
+  padding: 25px;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 60px;
+  padding-bottom: 10px;
+}
+.nav-item :hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.img {
+  width: 300px;
+  border-radius: 50px;
+}
+p {
+  color: #ffffff;
+  text-align: top;
+}
+.flex-container {
+  display: flex;
+  background-color: #22252c;
+}
+
+.flex-container > div {
+  background-color: #22252c;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.form {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #808080;
+} /* Dark Grey */
